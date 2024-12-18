@@ -1,0 +1,21 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // Menambahkan classpath untuk Android Gradle Plugin
+        classpath 'com.android.tools.build:gradle:7.0.4'  // Atau versi lain yang sesuai
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.31" // Pastikan versi Kotlin sesuai
+        // Menambahkan classpath untuk Flutter Gradle Plugin
+        classpath 'dev.flutter:flutter-gradle-plugin:2.8.0'  // Atau versi lain sesuai dengan Flutter yang digunakan
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
